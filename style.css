@@ -1,0 +1,73 @@
+:root {
+  --bg: #ffffff;
+  --text: #222;
+  --card: #f0f0f0;
+  --button: #4CAF50;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #fff;
+  --card: #1f1f1f;
+  --button: #00c2ff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background: var(--button);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: var(--card);
+  color: var(--text);
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+canvas {
+  max-width: 100%;
+  margin-top: 20px;
+}
